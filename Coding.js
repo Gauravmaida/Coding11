@@ -10,5 +10,5 @@ if (str === rev_str) {
     console.log("Palindrome");
 }
 else {
-    console.log("Not a Palindrome");
+    console.log("Not Palindrome");
 }
