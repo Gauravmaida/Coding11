@@ -12,3 +12,4 @@ if (str == rev) {
 else {
     console.log("Not Pallindrom");
 }
+/*html*/
