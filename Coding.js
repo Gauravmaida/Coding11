@@ -1,15 +1,14 @@
-function pallindrom(str) {
+function palindrome(str) {
     let bag = "";
-    for (let i = str.length; i <= 0; i++) {
+    for (let i = str.length-1; i >= 0; i--) {
         bag = bag + str[i];
     }
     return bag;
 }
-let rev = pallindrom("naman");
-if (str == rev) {
-    console.log("Pallindrom");
+let rev_str = palindrome("naman");
+if (str === rev_str) {
+    console.log("Palindrome");
 }
 else {
-    console.log("Not Pallindrom");
+    console.log("Not Palindrome");
 }
-/*html*/
